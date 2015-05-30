@@ -198,10 +198,6 @@
 <vertex x="-5.929725" y="-0.827278125"/>
 <vertex x="-5.929725" y="0.861165625"/>
 </polygon>
-<wire x1="-15" y1="7.44" x2="15" y2="7.44" width="0.127" layer="49"/>
-<wire x1="15" y1="7.44" x2="15" y2="-42.56" width="0.127" layer="49"/>
-<wire x1="15" y1="-42.56" x2="-15" y2="-42.56" width="0.127" layer="49"/>
-<wire x1="-15" y1="-42.56" x2="-15" y2="7.44" width="0.127" layer="49"/>
 </package>
 <package name="SOT223">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -240,26 +236,26 @@
 <wire x1="-0.691103125" y1="4.714909375" x2="-0.691103125" y2="2.472709375" width="0.127" layer="21"/>
 </package>
 <package name="2X10JTAG">
-<pad name="P$1" x="-6.35" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$2" x="-6.35" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$3" x="-5.08" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$4" x="-5.08" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$5" x="-3.81" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$6" x="-3.81" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$7" x="-2.54" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$8" x="-2.54" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$9" x="-1.27" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$10" x="-1.27" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$11" x="0" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$12" x="0" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$13" x="1.27" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$14" x="1.27" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$15" x="2.54" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$16" x="2.54" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$17" x="3.81" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$18" x="3.81" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$19" x="5.08" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$20" x="5.08" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$1" x="-6.35" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$2" x="-6.35" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$3" x="-5.08" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$4" x="-5.08" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$5" x="-3.81" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$6" x="-3.81" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$7" x="-2.54" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$8" x="-2.54" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$9" x="-1.27" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$10" x="-1.27" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$11" x="0" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$12" x="0" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$13" x="1.27" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$14" x="1.27" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$15" x="2.54" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$16" x="2.54" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$17" x="3.81" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$18" x="3.81" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$19" x="5.08" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$20" x="5.08" y="0" drill="0.7" diameter="1" shape="square"/>
 <circle x="-8.874834375" y="-3.766696875" radius="0.5" width="0" layer="21"/>
 <wire x1="-9.42706875" y1="-3.204565625" x2="8.17293125" y2="-3.204565625" width="0.127" layer="21"/>
 <wire x1="8.17293125" y1="-3.204565625" x2="8.17293125" y2="1.895434375" width="0.127" layer="21"/>
@@ -502,10 +498,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="VIN@2" pad="P$38"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MFGN" value="Hirose"/>
-<attribute name="MFGP" value="DF12(3.0)-40DP-0.5V(86)"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -544,10 +537,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="PWR" pad="P$1"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MFGN" value="CUI" constant="no"/>
-<attribute name="MFGP" value="PJ-002A"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -581,10 +571,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MFGN" value="CNC Tech"/>
-<attribute name="MFGP" value="3220-20-0100-00"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
