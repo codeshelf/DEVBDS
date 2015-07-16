@@ -198,10 +198,6 @@
 <vertex x="-5.929725" y="-0.827278125"/>
 <vertex x="-5.929725" y="0.861165625"/>
 </polygon>
-<wire x1="-15" y1="7.44" x2="15" y2="7.44" width="0.127" layer="49"/>
-<wire x1="15" y1="7.44" x2="15" y2="-42.56" width="0.127" layer="49"/>
-<wire x1="15" y1="-42.56" x2="-15" y2="-42.56" width="0.127" layer="49"/>
-<wire x1="-15" y1="-42.56" x2="-15" y2="7.44" width="0.127" layer="49"/>
 </package>
 <package name="SOT223">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -240,26 +236,26 @@
 <wire x1="-0.691103125" y1="4.714909375" x2="-0.691103125" y2="2.472709375" width="0.127" layer="21"/>
 </package>
 <package name="2X10JTAG">
-<pad name="P$1" x="-6.35" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$2" x="-6.35" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$3" x="-5.08" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$4" x="-5.08" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$5" x="-3.81" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$6" x="-3.81" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$7" x="-2.54" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$8" x="-2.54" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$9" x="-1.27" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$10" x="-1.27" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$11" x="0" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$12" x="0" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$13" x="1.27" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$14" x="1.27" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$15" x="2.54" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$16" x="2.54" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$17" x="3.81" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$18" x="3.81" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$19" x="5.08" y="-1.27" drill="0.7" diameter="1" shape="square" stop="no"/>
-<pad name="P$20" x="5.08" y="0" drill="0.7" diameter="1" shape="square" stop="no"/>
+<pad name="P$1" x="-6.35" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$2" x="-6.35" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$3" x="-5.08" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$4" x="-5.08" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$5" x="-3.81" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$6" x="-3.81" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$7" x="-2.54" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$8" x="-2.54" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$9" x="-1.27" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$10" x="-1.27" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$11" x="0" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$12" x="0" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$13" x="1.27" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$14" x="1.27" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$15" x="2.54" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$16" x="2.54" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$17" x="3.81" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$18" x="3.81" y="0" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$19" x="5.08" y="-1.27" drill="0.7" diameter="1" shape="square"/>
+<pad name="P$20" x="5.08" y="0" drill="0.7" diameter="1" shape="square"/>
 <circle x="-8.874834375" y="-3.766696875" radius="0.5" width="0" layer="21"/>
 <wire x1="-9.42706875" y1="-3.204565625" x2="8.17293125" y2="-3.204565625" width="0.127" layer="21"/>
 <wire x1="8.17293125" y1="-3.204565625" x2="8.17293125" y2="1.895434375" width="0.127" layer="21"/>
@@ -502,10 +498,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="VIN@2" pad="P$38"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MFGN" value="Hirose"/>
-<attribute name="MFGP" value="DF12(3.0)-40DP-0.5V(86)"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -544,10 +537,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="PWR" pad="P$1"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MFGN" value="CUI" constant="no"/>
-<attribute name="MFGP" value="PJ-002A"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -581,10 +571,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MFGN" value="CNC Tech"/>
-<attribute name="MFGP" value="3220-20-0100-00"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3111,7 +3098,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="U$19" library="KW2" deviceset="2X10JTAG" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="U$9" library="KW2" deviceset="RA_BUTTON" device=""/>
+<part name="U$9" library="KW2" deviceset="RA_BUTTON" device="">
+<attribute name="MFGN" value="TE"/>
+<attribute name="MFGP" value="1825027-5"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X3" device=""/>
@@ -3144,13 +3134,19 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="U$15" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="GW-devices" deviceset="RF-C" device="0805"/>
-<part name="LED9" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED9" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="TEST" value="test"/>
+</part>
 <part name="U$13" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="LED17" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED17" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+</part>
 <part name="U$25" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="LED18" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED18" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+</part>
 <part name="U$26" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="LED19" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
@@ -3208,6 +3204,41 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="U$21" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="JP26" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="LED15" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+<attribute name="MFGP" value="APT2012SECK"/>
+</part>
+<part name="U$22" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="LED16" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="U$23" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="LED25" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="U$33" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND32" library="supply1" deviceset="GND" device=""/>
+<part name="LED26" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="U$34" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="LED27" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="U$35" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND34" library="supply1" deviceset="GND" device=""/>
+<part name="LED28" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+</part>
+<part name="U$36" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND35" library="supply1" deviceset="GND" device=""/>
+<part name="LED29" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+</part>
+<part name="U$37" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="JP27" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="JP28" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="JP29" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="JP30" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="JP31" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="JP32" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
+<part name="JP33" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
 </parts>
 <sheets>
 <sheet>
@@ -3234,7 +3265,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="U$19" gate="G$1" x="134.62" y="-17.78" rot="MR180"/>
 <instance part="+3V7" gate="G$1" x="157.48" y="0"/>
 <instance part="GND8" gate="1" x="160.02" y="-40.64"/>
-<instance part="U$9" gate="G$1" x="35.56" y="-68.58" rot="MR0"/>
+<instance part="U$9" gate="G$1" x="35.56" y="-68.58" rot="MR0">
+<attribute name="MFGN" x="35.56" y="-68.58" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFGP" x="35.56" y="-68.58" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="25.4" y="-73.66"/>
 <instance part="JP3" gate="A" x="-50.8" y="-81.28" rot="R90"/>
 <instance part="JP4" gate="A" x="-27.94" y="-86.36" rot="R270"/>
@@ -3267,13 +3301,19 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="U$15" gate="&gt;NAME" x="58.42" y="0" rot="R180"/>
 <instance part="GND15" gate="1" x="73.66" y="0" rot="R90"/>
 <instance part="C1" gate="G$1" x="15.24" y="58.42"/>
-<instance part="LED9" gate="G$1" x="-93.98" y="0" rot="R270"/>
+<instance part="LED9" gate="G$1" x="-93.98" y="0" rot="R270">
+<attribute name="TEST" x="-93.98" y="0" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="U$13" gate="&gt;NAME" x="-86.36" y="0"/>
 <instance part="GND16" gate="1" x="-101.6" y="0" rot="R270"/>
-<instance part="LED17" gate="G$1" x="-93.98" y="-60.96" rot="R270"/>
+<instance part="LED17" gate="G$1" x="-93.98" y="-60.96" rot="R270">
+<attribute name="MFGN" x="-93.98" y="-60.96" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="U$25" gate="&gt;NAME" x="-86.36" y="-60.96"/>
 <instance part="GND24" gate="1" x="-101.6" y="-60.96" rot="R270"/>
-<instance part="LED18" gate="G$1" x="-93.98" y="-53.34" rot="R270"/>
+<instance part="LED18" gate="G$1" x="-93.98" y="-53.34" rot="R270">
+<attribute name="MFGN" x="-93.98" y="-53.34" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="U$26" gate="&gt;NAME" x="-86.36" y="-53.34"/>
 <instance part="GND25" gate="1" x="-101.6" y="-53.34" rot="R270"/>
 <instance part="LED19" gate="G$1" x="-93.98" y="-45.72" rot="R270"/>
@@ -3331,6 +3371,41 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="U$21" gate="&gt;NAME" x="81.28" y="-30.48" rot="R90"/>
 <instance part="GND21" gate="1" x="81.28" y="-45.72"/>
 <instance part="JP26" gate="A" x="83.82" y="-22.86" rot="R270"/>
+<instance part="LED15" gate="G$1" x="-93.98" y="55.88" rot="R270">
+<attribute name="MFGN" x="-93.98" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFGP" x="-93.98" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="U$22" gate="&gt;NAME" x="-86.36" y="55.88"/>
+<instance part="GND22" gate="1" x="-101.6" y="55.88" rot="R270"/>
+<instance part="LED16" gate="G$1" x="-93.98" y="10.16" rot="R270"/>
+<instance part="U$23" gate="&gt;NAME" x="-86.36" y="10.16"/>
+<instance part="GND23" gate="1" x="-101.6" y="10.16" rot="R270"/>
+<instance part="LED25" gate="G$1" x="-93.98" y="17.78" rot="R270"/>
+<instance part="U$33" gate="&gt;NAME" x="-86.36" y="17.78"/>
+<instance part="GND32" gate="1" x="-101.6" y="17.78" rot="R270"/>
+<instance part="LED26" gate="G$1" x="-93.98" y="25.4" rot="R270"/>
+<instance part="U$34" gate="&gt;NAME" x="-86.36" y="25.4"/>
+<instance part="GND33" gate="1" x="-101.6" y="25.4" rot="R270"/>
+<instance part="LED27" gate="G$1" x="-93.98" y="33.02" rot="R270"/>
+<instance part="U$35" gate="&gt;NAME" x="-86.36" y="33.02"/>
+<instance part="GND34" gate="1" x="-101.6" y="33.02" rot="R270"/>
+<instance part="LED28" gate="G$1" x="-93.98" y="40.64" rot="R270">
+<attribute name="MFGN" x="-93.98" y="40.64" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="U$36" gate="&gt;NAME" x="-86.36" y="40.64"/>
+<instance part="GND35" gate="1" x="-101.6" y="40.64" rot="R270"/>
+<instance part="LED29" gate="G$1" x="-93.98" y="48.26" rot="R270">
+<attribute name="MFGN" x="-93.98" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="U$37" gate="&gt;NAME" x="-86.36" y="48.26"/>
+<instance part="GND36" gate="1" x="-101.6" y="48.26" rot="R270"/>
+<instance part="JP27" gate="A" x="-81.28" y="60.96"/>
+<instance part="JP28" gate="A" x="-81.28" y="50.8"/>
+<instance part="JP29" gate="A" x="-81.28" y="43.18"/>
+<instance part="JP30" gate="A" x="-81.28" y="35.56"/>
+<instance part="JP31" gate="A" x="-81.28" y="27.94"/>
+<instance part="JP32" gate="A" x="-81.28" y="20.32"/>
+<instance part="JP33" gate="A" x="-81.28" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -3524,6 +3599,34 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="LED14" gate="G$1" pin="C"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="LED15" gate="G$1" pin="C"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED16" gate="G$1" pin="C"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED25" gate="G$1" pin="C"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED26" gate="G$1" pin="C"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED27" gate="G$1" pin="C"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED28" gate="G$1" pin="C"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED29" gate="G$1" pin="C"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -3613,7 +3716,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="U$1" gate="G$1" pin="PTE19/ADC0_SE7A/SPI0_SIN/!UART2_RTS!/I2C0_SCL"/>
 <pinref part="JP1" gate="A" pin="16"/>
 <wire x1="-15.24" y1="20.32" x2="-45.72" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="20.32" x2="-45.72" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="JP27" gate="A" pin="2"/>
+<wire x1="-78.74" y1="58.42" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="58.42" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="20.32" x2="-45.72" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-45.72" y="20.32"/>
 </segment>
 </net>
@@ -3622,6 +3728,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="A" pin="15"/>
 <pinref part="U$1" gate="G$1" pin="PTE18/ADC0_SE6A/SPI0_SOUT/!UART2_CTS!/I2C0_SDA"/>
 <wire x1="-45.72" y1="17.78" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="JP28" gate="A" pin="2"/>
+<wire x1="-78.74" y1="48.26" x2="-63.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="48.26" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="17.78" x2="-45.72" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-45.72" y="17.78"/>
 </segment>
 </net>
 <net name="PTE17" class="0">
@@ -3629,6 +3740,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="A" pin="14"/>
 <pinref part="U$1" gate="G$1" pin="PTE17/ADC0_SE5A/SPI0_SCK/UART2_RX/FTM_CLKIN1/LPTMR0_ALT3"/>
 <wire x1="-45.72" y1="15.24" x2="-15.24" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="JP29" gate="A" pin="2"/>
+<wire x1="-78.74" y1="40.64" x2="-66.04" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="40.64" x2="-66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="15.24" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-45.72" y="15.24"/>
 </segment>
 </net>
 <net name="PTE16" class="0">
@@ -3636,6 +3752,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="A" pin="13"/>
 <pinref part="U$1" gate="G$1" pin="PTE16/ADC0_SE4A/SPI0_PCS0/UART2_TX/FTM_CLKIN0/FTM0_FLT3"/>
 <wire x1="-45.72" y1="12.7" x2="-15.24" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="JP30" gate="A" pin="2"/>
+<wire x1="-78.74" y1="33.02" x2="-68.58" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="33.02" x2="-68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="12.7" x2="-45.72" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-45.72" y="12.7"/>
 </segment>
 </net>
 <net name="PTE4" class="0">
@@ -3643,6 +3764,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="A" pin="12"/>
 <pinref part="U$1" gate="G$1" pin="PTE4/LLWU_P2/SPI1_PCS0/MTRACE_D0"/>
 <wire x1="-45.72" y1="10.16" x2="-15.24" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="JP31" gate="A" pin="2"/>
+<wire x1="-78.74" y1="25.4" x2="-71.12" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="25.4" x2="-71.12" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="10.16" x2="-45.72" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-45.72" y="10.16"/>
 </segment>
 </net>
 <net name="PTE3" class="0">
@@ -3650,6 +3776,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="A" pin="11"/>
 <pinref part="U$1" gate="G$1" pin="PTE3/MADC0_DM1/SPI1_SIN/!UART1_RTS!/MTRACE_D1/SPI1_SOUT"/>
 <wire x1="-45.72" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="JP32" gate="A" pin="2"/>
+<wire x1="-78.74" y1="17.78" x2="-73.66" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="17.78" x2="-73.66" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="7.62" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
+<junction x="-45.72" y="7.62"/>
 </segment>
 </net>
 <net name="PTE2" class="0">
@@ -3657,6 +3788,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="A" pin="10"/>
 <pinref part="U$1" gate="G$1" pin="PTE2/LLWU_P1/MADC0_DP1/SPI1_SCK/!UART1_CTS!/MTRACE_D2"/>
 <wire x1="-45.72" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="JP33" gate="A" pin="2"/>
+<wire x1="-78.74" y1="10.16" x2="-76.2" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="10.16" x2="-76.2" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="5.08" x2="-45.72" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-45.72" y="5.08"/>
 </segment>
 </net>
 <net name="PTE1" class="0">
@@ -3774,6 +3910,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP15" gate="A" pin="1"/>
 <wire x1="50.8" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+<junction x="20.32" y="10.16"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -3785,6 +3922,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="22.86" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP16" gate="A" pin="1"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
+<junction x="22.86" y="7.62"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -3796,6 +3934,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="25.4" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="JP17" gate="A" pin="1"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
+<junction x="25.4" y="5.08"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -4183,6 +4322,91 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <segment>
 <pinref part="U$21" gate="&gt;NAME" pin="2"/>
 <pinref part="JP26" gate="A" pin="2"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="LED15" gate="G$1" pin="A"/>
+<pinref part="U$22" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="LED16" gate="G$1" pin="A"/>
+<pinref part="U$23" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="LED25" gate="G$1" pin="A"/>
+<pinref part="U$33" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="LED26" gate="G$1" pin="A"/>
+<pinref part="U$34" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="LED27" gate="G$1" pin="A"/>
+<pinref part="U$35" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="LED28" gate="G$1" pin="A"/>
+<pinref part="U$36" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="LED29" gate="G$1" pin="A"/>
+<pinref part="U$37" gate="&gt;NAME" pin="1"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="U$22" gate="&gt;NAME" pin="2"/>
+<wire x1="-81.28" y1="55.88" x2="-81.28" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="JP27" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="U$37" gate="&gt;NAME" pin="2"/>
+<pinref part="JP28" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="U$36" gate="&gt;NAME" pin="2"/>
+<pinref part="JP29" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="U$35" gate="&gt;NAME" pin="2"/>
+<pinref part="JP30" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="U$34" gate="&gt;NAME" pin="2"/>
+<pinref part="JP31" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="U$33" gate="&gt;NAME" pin="2"/>
+<pinref part="JP32" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="U$23" gate="&gt;NAME" pin="2"/>
+<pinref part="JP33" gate="A" pin="1"/>
 </segment>
 </net>
 </nets>

@@ -3098,7 +3098,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="U$19" library="KW2" deviceset="2X10JTAG" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="U$9" library="KW2" deviceset="RA_BUTTON" device=""/>
+<part name="U$9" library="KW2" deviceset="RA_BUTTON" device="">
+<attribute name="MFGN" value="TE"/>
+<attribute name="MFGP" value="1825027-5"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X3" device=""/>
@@ -3195,7 +3198,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="U$21" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="JP26" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO-NS"/>
-<part name="LED15" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED15" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+</part>
 <part name="U$22" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="LED16" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
@@ -3210,7 +3215,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="LED27" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$35" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="LED28" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED28" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Kingbright"/>
+</part>
 <part name="U$36" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="LED29" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
@@ -3249,7 +3256,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="U$19" gate="G$1" x="134.62" y="-17.78" rot="MR180"/>
 <instance part="+3V7" gate="G$1" x="157.48" y="0"/>
 <instance part="GND8" gate="1" x="160.02" y="-40.64"/>
-<instance part="U$9" gate="G$1" x="35.56" y="-68.58" rot="MR0"/>
+<instance part="U$9" gate="G$1" x="35.56" y="-68.58" rot="MR0">
+<attribute name="MFGN" x="35.56" y="-68.58" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFGP" x="35.56" y="-68.58" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="25.4" y="-73.66"/>
 <instance part="JP3" gate="A" x="-50.8" y="-81.28" rot="R90"/>
 <instance part="JP4" gate="A" x="-27.94" y="-86.36" rot="R270"/>
@@ -3346,7 +3356,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="U$21" gate="&gt;NAME" x="81.28" y="-30.48" rot="R90"/>
 <instance part="GND21" gate="1" x="81.28" y="-45.72"/>
 <instance part="JP26" gate="A" x="83.82" y="-22.86" rot="R270"/>
-<instance part="LED15" gate="G$1" x="-93.98" y="55.88" rot="R270"/>
+<instance part="LED15" gate="G$1" x="-93.98" y="55.88" rot="R270">
+<attribute name="MFGN" x="-93.98" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="U$22" gate="&gt;NAME" x="-86.36" y="55.88"/>
 <instance part="GND22" gate="1" x="-101.6" y="55.88" rot="R270"/>
 <instance part="LED16" gate="G$1" x="-93.98" y="10.16" rot="R270"/>
@@ -3361,7 +3373,9 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="LED27" gate="G$1" x="-93.98" y="33.02" rot="R270"/>
 <instance part="U$35" gate="&gt;NAME" x="-86.36" y="33.02"/>
 <instance part="GND34" gate="1" x="-101.6" y="33.02" rot="R270"/>
-<instance part="LED28" gate="G$1" x="-93.98" y="40.64" rot="R270"/>
+<instance part="LED28" gate="G$1" x="-93.98" y="40.64" rot="R270">
+<attribute name="MFGN" x="-93.98" y="40.64" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="U$36" gate="&gt;NAME" x="-86.36" y="40.64"/>
 <instance part="GND35" gate="1" x="-101.6" y="40.64" rot="R270"/>
 <instance part="LED29" gate="G$1" x="-93.98" y="48.26" rot="R270"/>

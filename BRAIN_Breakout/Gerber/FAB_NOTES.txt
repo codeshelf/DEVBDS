@@ -1,0 +1,26 @@
+KW2DEV.PCB.v1.0
+6/4/15
+
+- Material: FR4
+- Thickness: 0.062"
+- Copper weight: 1 oz
+- Finish: ENIG
+- All vias tented (included in soldermask layers)
+- Solder mask: BLACK
+- Silk screen: WHITE (top only)
+- Hole diameters applicable after plating
+- UL796 Flammability Rating 94V-0. Fabricator's UL Logo shall be placed on bottom side of board
+- Date of manufacture and lot code shall be placed on bottom side of board
+- Stackup: 
+  Top Paste         - BRAIN_Breakout_SW.SPT
+  Top Silkscreen    - BRAIN_Breakout_SW.SST 
+  Top Soldermask    - BRAIN_Breakout_SW.SMT
+  Top Copper        - BRAIN_Breakout_SW.LAY1
+  Bottom Copper     - BRAIN_Breakout_SW.LAY4
+  Bottom Soldermask - BRAIN_Breakout_SW.SMB
+  Bottom Silkscreen - BRAIN_Breakout_SW.SSB
+  Bottom Paste      - BRAIN_Breakout_SW.SPB
+  Excellon Drill    - BRAIN_Breakout_SW.drd
+  Board Outline     - BRAIN_Breakout_SW.FAB - note internal cutout
+  Component RefDes  - BRAIN_Breakout_SW.REF - component names not in sikscreen (for assembly use) 
+  Component centroid- BRAIN_Breakout_SW_centroid.csv
