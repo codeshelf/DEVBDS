@@ -2955,7 +2955,10 @@ Source: http://www.osram.convergy.de/</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="KW2" deviceset="DF12_F" device=""/>
+<part name="U$1" library="KW2" deviceset="DF12_F" device="">
+<attribute name="MFGN" value="Hirose"/>
+<attribute name="MFGP" value="DF12(3.0)-40DP-0.5V(86)"/>
+</part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="V+" device=""/>
 <part name="IC1" library="KW2" deviceset="NCP1117ST33T3G_1" device="">
@@ -2964,15 +2967,30 @@ Source: http://www.osram.convergy.de/</description>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="U$24" library="GW-devices" deviceset="RF-C" device="0805"/>
-<part name="U$3" library="KW2" deviceset="BARREL_CUI_PJ-002A" device=""/>
+<part name="U$3" library="KW2" deviceset="BARREL_CUI_PJ-002A" device="">
+<attribute name="MFGN" value="CUI"/>
+<attribute name="MFGP" value="PJ002-A"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U$10" library="GW-devices" deviceset="RF-C" device="0805"/>
-<part name="U$11" library="GW-devices" deviceset="RF-C" device="0805"/>
-<part name="U$12" library="GW-devices" deviceset="RF-C" device="0805"/>
+<part name="U$10" library="GW-devices" deviceset="RF-C" device="0805">
+<attribute name="MFGN" value="TDK"/>
+<attribute name="MFGP" value="C2012X5R1H104K085AA"/>
+</part>
+<part name="U$11" library="GW-devices" deviceset="RF-C" device="0805">
+<attribute name="MFGN" value="TDK"/>
+<attribute name="MFGP" value="C2012X5R1E105K125AA"/>
+</part>
+<part name="U$12" library="GW-devices" deviceset="RF-C" device="0805">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM219R61E106KA12D"/>
+</part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X16" device=""/>
-<part name="U$19" library="KW2" deviceset="2X10JTAG" device=""/>
+<part name="U$19" library="KW2" deviceset="2X10JTAG" device="">
+<attribute name="MFGN" value="CNC Tech"/>
+<attribute name="MFGP" value="3220-20-0100-00"/>
+</part>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="U$9" library="KW2" deviceset="RA_BUTTON" device="">
@@ -2986,147 +3004,313 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$2" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIP-LED0805">
+<attribute name="MFGN" value="Wurth Electronics Inc"/>
+<attribute name="MFGP" value="150080BS75000"/>
+</part>
+<part name="U$2" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2000V"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$4" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$5" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$6" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="LED5" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$7" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="LED6" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$8" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="LED7" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$14" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="LED8" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
 <part name="U$15" library="GW-devices" deviceset="RF-R" device="0805">
-<attribute name="TEST" value="Testme!"/>
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="GW-devices" deviceset="RF-C" device="0805"/>
+<part name="C1" library="GW-devices" deviceset="RF-C" device="0805">
+<attribute name="MFGN" value="Murata"/>
+<attribute name="MFGP" value="GRM219R61E106KA12D"/>
+</part>
 <part name="LED9" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$13" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$13" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="LED17" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$25" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$25" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="LED18" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$26" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$26" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="LED19" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$27" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$27" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="LED20" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$28" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$28" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="LED21" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$29" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$29" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="LED22" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$30" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$30" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="LED23" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$31" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$31" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="LED24" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$32" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$32" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X12" device=""/>
 <part name="LED10" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$16" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$16" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="LED11" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$17" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$17" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="LED12" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$18" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$18" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="LED13" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$20" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$20" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="LED14" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$21" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$21" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="LED15" library="adafruit" deviceset="LED" device="CHIP-LED0805">
 <attribute name="MFGN" value="Kingbright"/>
 <attribute name="MFGP" value="APT2012SECK"/>
 </part>
-<part name="U$22" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$22" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="LED16" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$23" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$23" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="LED25" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$33" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$33" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="LED26" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$34" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$34" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="LED27" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$35" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$35" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="LED28" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$36" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$36" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="LED29" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
-<part name="U$37" library="GW-devices" deviceset="RF-R" device="0805"/>
+<part name="U$37" library="GW-devices" deviceset="RF-R" device="0805">
+<attribute name="MFGN" value="Panasonic"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V"/>
+</part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="U$38" library="KW2" deviceset="CJS" device=""/>
-<part name="U$39" library="KW2" deviceset="CJS" device=""/>
-<part name="U$40" library="KW2" deviceset="CJS" device=""/>
-<part name="U$41" library="KW2" deviceset="CJS" device=""/>
-<part name="U$42" library="KW2" deviceset="CJS" device=""/>
-<part name="U$43" library="KW2" deviceset="CJS" device=""/>
-<part name="U$44" library="KW2" deviceset="CJS" device=""/>
-<part name="U$45" library="KW2" deviceset="CJS" device=""/>
-<part name="U$46" library="KW2" deviceset="CJS" device=""/>
-<part name="U$47" library="KW2" deviceset="CJS" device=""/>
-<part name="U$48" library="KW2" deviceset="CJS" device=""/>
-<part name="U$49" library="KW2" deviceset="CJS" device=""/>
-<part name="U$50" library="KW2" deviceset="CJS" device=""/>
-<part name="U$51" library="KW2" deviceset="CJS" device=""/>
-<part name="U$52" library="KW2" deviceset="CJS" device=""/>
-<part name="U$53" library="KW2" deviceset="CJS" device=""/>
-<part name="U$54" library="KW2" deviceset="CJS" device=""/>
-<part name="U$55" library="KW2" deviceset="CJS" device=""/>
-<part name="U$56" library="KW2" deviceset="CJS" device=""/>
-<part name="U$57" library="KW2" deviceset="CJS" device=""/>
-<part name="U$58" library="KW2" deviceset="CJS" device=""/>
-<part name="U$59" library="KW2" deviceset="CJS" device=""/>
-<part name="U$60" library="KW2" deviceset="CJS" device=""/>
-<part name="U$61" library="KW2" deviceset="CJS" device=""/>
-<part name="U$62" library="KW2" deviceset="CJS" device=""/>
-<part name="U$63" library="KW2" deviceset="CJS" device=""/>
-<part name="U$64" library="KW2" deviceset="CJS" device=""/>
-<part name="U$65" library="KW2" deviceset="CJS" device=""/>
+<part name="U$38" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$39" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$40" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$41" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$42" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$43" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$44" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$45" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$46" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$47" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$48" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$49" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$50" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$51" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$52" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$53" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$54" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$55" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$56" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$57" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$58" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$59" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$60" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$61" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$62" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$63" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$64" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
+<part name="U$65" library="KW2" deviceset="CJS" device="">
+<attribute name="MFGN" value="Copal Electronics Inc"/>
+<attribute name="MFGP" value="CJS-1200TA"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="0" y="0"/>
+<instance part="U$1" gate="G$1" x="0" y="0">
+<attribute name="MFGN" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V1" gate="G$1" x="-22.86" y="71.12"/>
 <instance part="SUPPLY1" gate="1" x="20.32" y="68.58"/>
 <instance part="IC1" gate="G$1" x="-2.54" y="58.42" rot="MR0">
@@ -3135,15 +3319,30 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="GND13" gate="1" x="-2.54" y="45.72"/>
 <instance part="U$24" gate="G$1" x="-17.78" y="50.8" rot="R180"/>
-<instance part="U$3" gate="G$1" x="78.74" y="66.04" rot="R180"/>
+<instance part="U$3" gate="G$1" x="78.74" y="66.04" rot="R180">
+<attribute name="MFGN" x="78.74" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="78.74" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="63.5" y="71.12"/>
-<instance part="U$10" gate="G$1" x="55.88" y="55.88" rot="R180"/>
-<instance part="U$11" gate="G$1" x="60.96" y="55.88" rot="R180"/>
-<instance part="U$12" gate="G$1" x="66.04" y="55.88" rot="R180"/>
+<instance part="U$10" gate="G$1" x="55.88" y="55.88" rot="R180">
+<attribute name="MFGN" x="55.88" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="55.88" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$11" gate="G$1" x="60.96" y="55.88" rot="R180">
+<attribute name="MFGN" x="60.96" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="60.96" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$12" gate="G$1" x="66.04" y="55.88" rot="R180">
+<attribute name="MFGN" x="66.04" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="66.04" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND12" gate="1" x="60.96" y="48.26"/>
 <instance part="GND1" gate="1" x="0" y="-50.8"/>
 <instance part="JP1" gate="A" x="-48.26" y="0" rot="R180"/>
-<instance part="U$19" gate="G$1" x="134.62" y="-17.78" rot="MR180"/>
+<instance part="U$19" gate="G$1" x="134.62" y="-17.78" rot="MR180">
+<attribute name="MFGN" x="134.62" y="-17.78" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MFGP" x="134.62" y="-17.78" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
 <instance part="+3V7" gate="G$1" x="157.48" y="0"/>
 <instance part="GND8" gate="1" x="160.02" y="-40.64"/>
 <instance part="U$9" gate="G$1" x="35.56" y="-68.58" rot="MR0">
@@ -3158,139 +3357,299 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="+3V2" gate="G$1" x="-27.94" y="-71.12"/>
 <instance part="SUPPLY2" gate="1" x="-7.62" y="-71.12"/>
 <instance part="LED1" gate="G$1" x="-33.02" y="48.26"/>
-<instance part="U$2" gate="&gt;NAME" x="-33.02" y="55.88" rot="R90"/>
+<instance part="U$2" gate="&gt;NAME" x="-33.02" y="55.88" rot="R90">
+<attribute name="MFGN" x="-33.02" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFGP" x="-33.02" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="-33.02" y="40.64"/>
 <instance part="LED2" gate="G$1" x="99.06" y="43.18" rot="R90"/>
 <instance part="U$4" gate="&gt;NAME" x="91.44" y="43.18" rot="R180">
-<attribute name="TEST" x="91.44" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="106.68" y="43.18" rot="R90"/>
 <instance part="LED3" gate="G$1" x="99.06" y="35.56" rot="R90"/>
 <instance part="U$5" gate="&gt;NAME" x="91.44" y="35.56" rot="R180">
-<attribute name="TEST" x="91.44" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="106.68" y="35.56" rot="R90"/>
 <instance part="LED4" gate="G$1" x="99.06" y="27.94" rot="R90"/>
 <instance part="U$6" gate="&gt;NAME" x="91.44" y="27.94" rot="R180">
-<attribute name="TEST" x="91.44" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="106.68" y="27.94" rot="R90"/>
 <instance part="LED5" gate="G$1" x="99.06" y="20.32" rot="R90"/>
 <instance part="U$7" gate="&gt;NAME" x="91.44" y="20.32" rot="R180">
-<attribute name="TEST" x="91.44" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="106.68" y="20.32" rot="R90"/>
 <instance part="LED6" gate="G$1" x="99.06" y="12.7" rot="R90"/>
 <instance part="U$8" gate="&gt;NAME" x="91.44" y="12.7" rot="R180">
-<attribute name="TEST" x="91.44" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="106.68" y="12.7" rot="R90"/>
 <instance part="LED7" gate="G$1" x="99.06" y="7.62" rot="R90"/>
 <instance part="U$14" gate="&gt;NAME" x="91.44" y="7.62" rot="R180">
-<attribute name="TEST" x="91.44" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="106.68" y="7.62" rot="R90"/>
 <instance part="LED8" gate="G$1" x="99.06" y="0" rot="R90"/>
 <instance part="U$15" gate="&gt;NAME" x="91.44" y="0" rot="R180">
-<attribute name="TEST" x="91.44" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="91.44" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="91.44" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="106.68" y="0" rot="R90"/>
-<instance part="C1" gate="G$1" x="15.24" y="58.42"/>
+<instance part="C1" gate="G$1" x="15.24" y="58.42">
+<attribute name="MFGN" x="15.24" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="15.24" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="LED9" gate="G$1" x="-116.84" y="0" rot="R270"/>
-<instance part="U$13" gate="&gt;NAME" x="-109.22" y="0"/>
+<instance part="U$13" gate="&gt;NAME" x="-109.22" y="0">
+<attribute name="MFGN" x="-109.22" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND16" gate="1" x="-124.46" y="0" rot="R270"/>
 <instance part="LED17" gate="G$1" x="-116.84" y="-60.96" rot="R270"/>
-<instance part="U$25" gate="&gt;NAME" x="-109.22" y="-60.96"/>
+<instance part="U$25" gate="&gt;NAME" x="-109.22" y="-60.96">
+<attribute name="MFGN" x="-109.22" y="-60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-60.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND24" gate="1" x="-124.46" y="-60.96" rot="R270"/>
 <instance part="LED18" gate="G$1" x="-116.84" y="-53.34" rot="R270"/>
-<instance part="U$26" gate="&gt;NAME" x="-109.22" y="-53.34"/>
+<instance part="U$26" gate="&gt;NAME" x="-109.22" y="-53.34">
+<attribute name="MFGN" x="-109.22" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND25" gate="1" x="-124.46" y="-53.34" rot="R270"/>
 <instance part="LED19" gate="G$1" x="-116.84" y="-45.72" rot="R270"/>
-<instance part="U$27" gate="&gt;NAME" x="-109.22" y="-45.72"/>
+<instance part="U$27" gate="&gt;NAME" x="-109.22" y="-45.72">
+<attribute name="MFGN" x="-109.22" y="-45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND26" gate="1" x="-124.46" y="-45.72" rot="R270"/>
 <instance part="LED20" gate="G$1" x="-116.84" y="-38.1" rot="R270"/>
-<instance part="U$28" gate="&gt;NAME" x="-109.22" y="-38.1"/>
+<instance part="U$28" gate="&gt;NAME" x="-109.22" y="-38.1">
+<attribute name="MFGN" x="-109.22" y="-38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-38.1" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND27" gate="1" x="-124.46" y="-38.1" rot="R270"/>
 <instance part="LED21" gate="G$1" x="-116.84" y="-30.48" rot="R270"/>
-<instance part="U$29" gate="&gt;NAME" x="-109.22" y="-30.48"/>
+<instance part="U$29" gate="&gt;NAME" x="-109.22" y="-30.48">
+<attribute name="MFGN" x="-109.22" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND28" gate="1" x="-124.46" y="-30.48" rot="R270"/>
 <instance part="LED22" gate="G$1" x="-116.84" y="-22.86" rot="R270"/>
-<instance part="U$30" gate="&gt;NAME" x="-109.22" y="-22.86"/>
+<instance part="U$30" gate="&gt;NAME" x="-109.22" y="-22.86">
+<attribute name="MFGN" x="-109.22" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-22.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND29" gate="1" x="-124.46" y="-22.86" rot="R270"/>
 <instance part="LED23" gate="G$1" x="-116.84" y="-15.24" rot="R270"/>
-<instance part="U$31" gate="&gt;NAME" x="-109.22" y="-15.24"/>
+<instance part="U$31" gate="&gt;NAME" x="-109.22" y="-15.24">
+<attribute name="MFGN" x="-109.22" y="-15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND30" gate="1" x="-124.46" y="-15.24" rot="R270"/>
 <instance part="LED24" gate="G$1" x="-116.84" y="-7.62" rot="R270"/>
-<instance part="U$32" gate="&gt;NAME" x="-109.22" y="-7.62"/>
+<instance part="U$32" gate="&gt;NAME" x="-109.22" y="-7.62">
+<attribute name="MFGN" x="-109.22" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="-7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="-124.46" y="-7.62" rot="R270"/>
 <instance part="JP2" gate="G$1" x="35.56" y="-2.54"/>
 <instance part="LED10" gate="G$1" x="40.64" y="-50.8"/>
-<instance part="U$16" gate="&gt;NAME" x="40.64" y="-43.18" rot="R90"/>
+<instance part="U$16" gate="&gt;NAME" x="40.64" y="-43.18" rot="R90">
+<attribute name="MFGN" x="40.64" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="40.64" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND17" gate="1" x="40.64" y="-58.42"/>
 <instance part="LED11" gate="G$1" x="50.8" y="-50.8"/>
-<instance part="U$17" gate="&gt;NAME" x="50.8" y="-43.18" rot="R90"/>
+<instance part="U$17" gate="&gt;NAME" x="50.8" y="-43.18" rot="R90">
+<attribute name="MFGN" x="50.8" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="50.8" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="50.8" y="-58.42"/>
 <instance part="LED12" gate="G$1" x="60.96" y="-50.8"/>
-<instance part="U$18" gate="&gt;NAME" x="60.96" y="-43.18" rot="R90"/>
+<instance part="U$18" gate="&gt;NAME" x="60.96" y="-43.18" rot="R90">
+<attribute name="MFGN" x="60.96" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="60.96" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND19" gate="1" x="60.96" y="-58.42"/>
 <instance part="LED13" gate="G$1" x="71.12" y="-50.8"/>
-<instance part="U$20" gate="&gt;NAME" x="71.12" y="-43.18" rot="R90"/>
+<instance part="U$20" gate="&gt;NAME" x="71.12" y="-43.18" rot="R90">
+<attribute name="MFGN" x="71.12" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="71.12" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="71.12" y="-58.42"/>
 <instance part="LED14" gate="G$1" x="81.28" y="-50.8"/>
-<instance part="U$21" gate="&gt;NAME" x="81.28" y="-43.18" rot="R90"/>
+<instance part="U$21" gate="&gt;NAME" x="81.28" y="-43.18" rot="R90">
+<attribute name="MFGN" x="81.28" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="81.28" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND21" gate="1" x="81.28" y="-58.42"/>
 <instance part="LED15" gate="G$1" x="-116.84" y="55.88" rot="R270">
 <attribute name="MFGN" x="-116.84" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MFGP" x="-116.84" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="U$22" gate="&gt;NAME" x="-109.22" y="55.88"/>
+<instance part="U$22" gate="&gt;NAME" x="-109.22" y="55.88">
+<attribute name="MFGN" x="-109.22" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND22" gate="1" x="-124.46" y="55.88" rot="R270"/>
 <instance part="LED16" gate="G$1" x="-116.84" y="10.16" rot="R270"/>
-<instance part="U$23" gate="&gt;NAME" x="-109.22" y="10.16"/>
+<instance part="U$23" gate="&gt;NAME" x="-109.22" y="10.16">
+<attribute name="MFGN" x="-109.22" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND23" gate="1" x="-124.46" y="10.16" rot="R270"/>
 <instance part="LED25" gate="G$1" x="-116.84" y="17.78" rot="R270"/>
-<instance part="U$33" gate="&gt;NAME" x="-109.22" y="17.78"/>
+<instance part="U$33" gate="&gt;NAME" x="-109.22" y="17.78">
+<attribute name="MFGN" x="-109.22" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND32" gate="1" x="-124.46" y="17.78" rot="R270"/>
 <instance part="LED26" gate="G$1" x="-116.84" y="25.4" rot="R270"/>
-<instance part="U$34" gate="&gt;NAME" x="-109.22" y="25.4"/>
+<instance part="U$34" gate="&gt;NAME" x="-109.22" y="25.4">
+<attribute name="MFGN" x="-109.22" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND33" gate="1" x="-124.46" y="25.4" rot="R270"/>
 <instance part="LED27" gate="G$1" x="-116.84" y="33.02" rot="R270"/>
-<instance part="U$35" gate="&gt;NAME" x="-109.22" y="33.02"/>
+<instance part="U$35" gate="&gt;NAME" x="-109.22" y="33.02">
+<attribute name="MFGN" x="-109.22" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND34" gate="1" x="-124.46" y="33.02" rot="R270"/>
 <instance part="LED28" gate="G$1" x="-116.84" y="40.64" rot="R270"/>
-<instance part="U$36" gate="&gt;NAME" x="-109.22" y="40.64"/>
+<instance part="U$36" gate="&gt;NAME" x="-109.22" y="40.64">
+<attribute name="MFGN" x="-109.22" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND35" gate="1" x="-124.46" y="40.64" rot="R270"/>
 <instance part="LED29" gate="G$1" x="-116.84" y="48.26" rot="R270"/>
-<instance part="U$37" gate="&gt;NAME" x="-109.22" y="48.26"/>
+<instance part="U$37" gate="&gt;NAME" x="-109.22" y="48.26">
+<attribute name="MFGN" x="-109.22" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MFGP" x="-109.22" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND36" gate="1" x="-124.46" y="48.26" rot="R270"/>
-<instance part="U$38" gate="G$1" x="-96.52" y="-60.96"/>
-<instance part="U$39" gate="G$1" x="-96.52" y="-53.34"/>
-<instance part="U$40" gate="G$1" x="-96.52" y="-45.72"/>
-<instance part="U$41" gate="G$1" x="-96.52" y="-38.1"/>
-<instance part="U$42" gate="G$1" x="-96.52" y="-30.48"/>
-<instance part="U$43" gate="G$1" x="-96.52" y="-15.24"/>
-<instance part="U$44" gate="G$1" x="-96.52" y="2.54"/>
-<instance part="U$45" gate="G$1" x="-96.52" y="58.42"/>
-<instance part="U$46" gate="G$1" x="-96.52" y="48.26"/>
-<instance part="U$47" gate="G$1" x="-96.52" y="40.64"/>
-<instance part="U$48" gate="G$1" x="-96.52" y="33.02"/>
-<instance part="U$49" gate="G$1" x="-96.52" y="25.4"/>
-<instance part="U$50" gate="G$1" x="-96.52" y="17.78"/>
-<instance part="U$51" gate="G$1" x="-96.52" y="10.16"/>
-<instance part="U$52" gate="G$1" x="-96.52" y="-7.62"/>
-<instance part="U$53" gate="G$1" x="-96.52" y="-22.86"/>
-<instance part="U$54" gate="G$1" x="40.64" y="-30.48" rot="R90"/>
-<instance part="U$55" gate="G$1" x="50.8" y="-30.48" rot="R90"/>
-<instance part="U$56" gate="G$1" x="60.96" y="-30.48" rot="R90"/>
-<instance part="U$57" gate="G$1" x="71.12" y="-30.48" rot="R90"/>
-<instance part="U$58" gate="G$1" x="81.28" y="-30.48" rot="R90"/>
-<instance part="U$59" gate="G$1" x="58.42" y="43.18"/>
-<instance part="U$60" gate="G$1" x="58.42" y="35.56"/>
-<instance part="U$61" gate="G$1" x="58.42" y="27.94"/>
-<instance part="U$62" gate="G$1" x="58.42" y="20.32"/>
-<instance part="U$63" gate="G$1" x="58.42" y="12.7"/>
-<instance part="U$64" gate="G$1" x="58.42" y="7.62"/>
-<instance part="U$65" gate="G$1" x="58.42" y="0"/>
+<instance part="U$38" gate="G$1" x="-96.52" y="-60.96">
+<attribute name="MFGP" x="-96.52" y="-60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$39" gate="G$1" x="-96.52" y="-53.34">
+<attribute name="MFGP" x="-96.52" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$40" gate="G$1" x="-96.52" y="-45.72">
+<attribute name="MFGP" x="-96.52" y="-45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$41" gate="G$1" x="-96.52" y="-38.1">
+<attribute name="MFGP" x="-96.52" y="-38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$42" gate="G$1" x="-96.52" y="-30.48">
+<attribute name="MFGP" x="-96.52" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$43" gate="G$1" x="-96.52" y="-15.24">
+<attribute name="MFGP" x="-96.52" y="-15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$44" gate="G$1" x="-96.52" y="2.54">
+<attribute name="MFGP" x="-96.52" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="2.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$45" gate="G$1" x="-96.52" y="58.42">
+<attribute name="MFGP" x="-96.52" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$46" gate="G$1" x="-96.52" y="48.26">
+<attribute name="MFGP" x="-96.52" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$47" gate="G$1" x="-96.52" y="40.64">
+<attribute name="MFGP" x="-96.52" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$48" gate="G$1" x="-96.52" y="33.02">
+<attribute name="MFGP" x="-96.52" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$49" gate="G$1" x="-96.52" y="25.4">
+<attribute name="MFGP" x="-96.52" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$50" gate="G$1" x="-96.52" y="17.78">
+<attribute name="MFGP" x="-96.52" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$51" gate="G$1" x="-96.52" y="10.16">
+<attribute name="MFGP" x="-96.52" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$52" gate="G$1" x="-96.52" y="-7.62">
+<attribute name="MFGP" x="-96.52" y="-7.62" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-7.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$53" gate="G$1" x="-96.52" y="-22.86">
+<attribute name="MFGP" x="-96.52" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="-96.52" y="-22.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$54" gate="G$1" x="40.64" y="-30.48" rot="R90">
+<attribute name="MFGP" x="40.64" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="40.64" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$55" gate="G$1" x="50.8" y="-30.48" rot="R90">
+<attribute name="MFGP" x="50.8" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="50.8" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$56" gate="G$1" x="60.96" y="-30.48" rot="R90">
+<attribute name="MFGP" x="60.96" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="60.96" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$57" gate="G$1" x="71.12" y="-30.48" rot="R90">
+<attribute name="MFGP" x="71.12" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="71.12" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$58" gate="G$1" x="81.28" y="-30.48" rot="R90">
+<attribute name="MFGP" x="81.28" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="81.28" y="-30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$59" gate="G$1" x="58.42" y="43.18">
+<attribute name="MFGP" x="58.42" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$60" gate="G$1" x="58.42" y="35.56">
+<attribute name="MFGP" x="58.42" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$61" gate="G$1" x="58.42" y="27.94">
+<attribute name="MFGP" x="58.42" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$62" gate="G$1" x="58.42" y="20.32">
+<attribute name="MFGP" x="58.42" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$63" gate="G$1" x="58.42" y="12.7">
+<attribute name="MFGP" x="58.42" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$64" gate="G$1" x="58.42" y="7.62">
+<attribute name="MFGP" x="58.42" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$65" gate="G$1" x="58.42" y="0">
+<attribute name="MFGP" x="58.42" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="MFGN" x="58.42" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

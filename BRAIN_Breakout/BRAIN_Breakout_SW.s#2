@@ -4143,8 +4143,14 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="MFGP" value="CJS-1200TA"/>
 </part>
 <part name="X1" library="SparkFun" deviceset="USB" device=""/>
-<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA"/>
-<part name="D2" library="SparkFun" deviceset="DIODE" device="SMA"/>
+<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA">
+<attribute name="MFGN" value="Diodes Inc"/>
+<attribute name="MFGP" value="SBRT3U45SA-13"/>
+</part>
+<part name="D2" library="SparkFun" deviceset="DIODE" device="SMA">
+<attribute name="MFGN" value="Diodes Inc"/>
+<attribute name="MFGP" value="SBRT3U45SA-13"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4510,8 +4516,14 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="MFGN" x="58.42" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="66.04" y="86.36"/>
-<instance part="D1" gate="G$1" x="53.34" y="88.9" rot="R180"/>
-<instance part="D2" gate="G$1" x="53.34" y="66.04" rot="R180"/>
+<instance part="D1" gate="G$1" x="53.34" y="88.9" rot="R180">
+<attribute name="MFGN" x="53.34" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="53.34" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="D2" gate="G$1" x="53.34" y="66.04" rot="R180">
+<attribute name="MFGN" x="53.34" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFGP" x="53.34" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

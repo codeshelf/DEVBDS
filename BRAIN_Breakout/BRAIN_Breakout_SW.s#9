@@ -3053,6 +3053,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="LED15" library="adafruit" deviceset="LED" device="CHIP-LED0805">
 <attribute name="MFGN" value="Kingbright"/>
+<attribute name="MFGP" value="APT2012SECK"/>
 </part>
 <part name="U$22" library="GW-devices" deviceset="RF-R" device="0805"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
@@ -3209,6 +3210,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND21" gate="1" x="81.28" y="-58.42"/>
 <instance part="LED15" gate="G$1" x="-116.84" y="55.88" rot="R270">
 <attribute name="MFGN" x="-116.84" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFGP" x="-116.84" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$22" gate="&gt;NAME" x="-109.22" y="55.88"/>
 <instance part="GND22" gate="1" x="-124.46" y="55.88" rot="R270"/>

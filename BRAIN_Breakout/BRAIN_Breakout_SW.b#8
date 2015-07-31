@@ -2994,18 +2994,36 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="KW2" package="DF12_F" value="DF12_F" x="60" y="49.53" rot="MR270"/>
+<element name="U$1" library="KW2" package="DF12_F" value="DF12_F" x="60" y="49.53" rot="MR270">
+<attribute name="MFGN" value="Hirose" x="60" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFGP" value="DF12(3.0)-40DP-0.5V(86)" x="60" y="49.53" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 <element name="IC1" library="KW2" package="SOT223" value="" x="109.57" y="42.9" rot="R90">
 <attribute name="MFGN" value="OnSemi" x="109.57" y="42.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="NCP1117ST33T3G" x="109.57" y="42.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$24" library="GW-devices" package="C0805" value="" x="112.56" y="50" rot="R90"/>
-<element name="U$3" library="KW2" package="BARREL_CUI_PJ-002A" value="BARREL_CUI_PJ-002A" x="115.89" y="31.33" smashed="yes"/>
-<element name="U$10" library="GW-devices" package="C0805" value="" x="107.53" y="33.25" rot="R270"/>
-<element name="U$11" library="GW-devices" package="C0805" value="" x="105.04" y="33.25" rot="R270"/>
-<element name="U$12" library="GW-devices" package="C0805" value="" x="110.02" y="33.25" rot="R270"/>
+<element name="U$3" library="KW2" package="BARREL_CUI_PJ-002A" value="BARREL_CUI_PJ-002A" x="115.89" y="31.33" smashed="yes">
+<attribute name="MFGN" value="CUI" x="115.89" y="31.33" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="PJ002-A" x="115.89" y="31.33" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$10" library="GW-devices" package="C0805" value="" x="107.53" y="33.25" rot="R270">
+<attribute name="MFGN" value="TDK" x="107.53" y="33.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="C2012X5R1H104K085AA" x="107.53" y="33.25" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$11" library="GW-devices" package="C0805" value="" x="105.04" y="33.25" rot="R270">
+<attribute name="MFGN" value="TDK" x="105.04" y="33.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="C2012X5R1E105K125AA" x="105.04" y="33.25" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U$12" library="GW-devices" package="C0805" value="" x="110.02" y="33.25" rot="R270">
+<attribute name="MFGN" value="Murata" x="110.02" y="33.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="GRM219R61E106KA12D" x="110.02" y="33.25" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="JP1" library="pinhead" package="1X16" value="" x="79" y="26" rot="R180"/>
-<element name="U$19" library="KW2" package="2X10JTAG" value="2X10JTAG" x="120.53" y="52.07" smashed="yes" rot="R90"/>
+<element name="U$19" library="KW2" package="2X10JTAG" value="2X10JTAG" x="120.53" y="52.07" smashed="yes" rot="R90">
+<attribute name="MFGN" value="CNC Tech" x="120.53" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGP" value="3220-20-0100-00" x="120.53" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="U$9" library="KW2" package="RA_BUTTON" value="RA_BUTTON" x="115.13" y="77.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="111.37" y="77.48" size="1.27" layer="21" rot="R180"/>
 <attribute name="MFGN" value="TE" x="115.13" y="77.24" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3015,194 +3033,354 @@ design rules under a new name.</description>
 <element name="JP4" library="pinhead" package="1X03" value="" x="42" y="39" rot="R90"/>
 <element name="JP5" library="pinhead" package="1X03" value="" x="42" y="51" rot="R90"/>
 <element name="LED1" library="adafruit" package="CHIP-LED0805" value="" x="107.2" y="54.3" rot="R90">
-<attribute name="MFGN" value="Kingbright" x="107.2" y="54.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFGP" value="APT2012SECK" x="107.2" y="54.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Wurth Electronics Inc" x="107.2" y="54.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGP" value="150080BS75000" x="107.2" y="54.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$2" library="GW-devices" package="RF-C0805" value="" x="112.6" y="54.3"/>
+<element name="U$2" library="GW-devices" package="RF-C0805" value="" x="112.6" y="54.3">
+<attribute name="MFGN" value="Panasonic" x="112.6" y="54.3" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2000V" x="112.6" y="54.3" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED2" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="69.6" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="69.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="69.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$4" library="GW-devices" package="RF-C0805" value="" x="43" y="69.6">
-<attribute name="TEST" value="Testme!" x="43" y="69.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="69.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="69.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED3" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="67.4" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="67.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="67.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$5" library="GW-devices" package="RF-C0805" value="" x="43" y="67.4">
-<attribute name="TEST" value="Testme!" x="43" y="67.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="67.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="67.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED4" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="65.2" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="65.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="65.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$6" library="GW-devices" package="RF-C0805" value="" x="43" y="65.2">
-<attribute name="TEST" value="Testme!" x="43" y="65.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="65.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="65.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED5" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="63" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="63" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="63" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$7" library="GW-devices" package="RF-C0805" value="" x="43" y="63">
-<attribute name="TEST" value="Testme!" x="43" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="63" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="63" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED6" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="60.8" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="60.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="60.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$8" library="GW-devices" package="RF-C0805" value="" x="43" y="60.8">
-<attribute name="TEST" value="Testme!" x="43" y="60.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="60.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="60.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED7" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="58.6" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="58.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="58.6" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$14" library="GW-devices" package="RF-C0805" value="" x="43" y="58.6">
-<attribute name="TEST" value="Testme!" x="43" y="58.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="58.6" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="58.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED8" library="adafruit" package="CHIP-LED0805" value="" x="38.6" y="56.4" rot="R90">
 <attribute name="MFGN" value="Kingbright" x="38.6" y="56.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="38.6" y="56.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$15" library="GW-devices" package="RF-C0805" value="" x="43" y="56.4">
-<attribute name="TEST" value="Testme!" x="43" y="56.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFGN" value="Panasonic" x="43" y="56.4" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="43" y="56.4" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="GW-devices" package="C0805" value="" x="115.5" y="50" rot="R270"/>
+<element name="C1" library="GW-devices" package="C0805" value="" x="115.5" y="50" rot="R270">
+<attribute name="MFGN" value="Murata" x="115.5" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="GRM219R61E106KA12D" x="115.5" y="50" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="LED9" library="adafruit" package="CHIP-LED0805" value="" x="80.1" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="80.1" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="80.1" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$13" library="GW-devices" package="RF-C0805" value="" x="80.1" y="17.2"/>
+<element name="U$13" library="GW-devices" package="RF-C0805" value="" x="80.1" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="80.1" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="80.1" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED17" library="adafruit" package="CHIP-LED0805" value="" x="116.9" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="116.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="116.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$25" library="GW-devices" package="RF-C0805" value="" x="116.9" y="17.1"/>
+<element name="U$25" library="GW-devices" package="RF-C0805" value="" x="116.9" y="17.1">
+<attribute name="MFGN" value="Panasonic" x="116.9" y="17.1" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="116.9" y="17.1" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED18" library="adafruit" package="CHIP-LED0805" value="" x="112.3" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="112.3" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="112.3" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$26" library="GW-devices" package="RF-C0805" value="" x="112.3" y="17.2"/>
+<element name="U$26" library="GW-devices" package="RF-C0805" value="" x="112.3" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="112.3" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="112.3" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED19" library="adafruit" package="CHIP-LED0805" value="" x="107.7" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="107.7" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="107.7" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$27" library="GW-devices" package="RF-C0805" value="" x="107.7" y="17.2"/>
+<element name="U$27" library="GW-devices" package="RF-C0805" value="" x="107.7" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="107.7" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="107.7" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED20" library="adafruit" package="CHIP-LED0805" value="" x="103.1" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="103.1" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="103.1" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$28" library="GW-devices" package="RF-C0805" value="" x="103.1" y="17.2"/>
+<element name="U$28" library="GW-devices" package="RF-C0805" value="" x="103.1" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="103.1" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="103.1" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED21" library="adafruit" package="CHIP-LED0805" value="" x="98.5" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="98.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="98.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$29" library="GW-devices" package="RF-C0805" value="" x="98.5" y="17.2"/>
+<element name="U$29" library="GW-devices" package="RF-C0805" value="" x="98.5" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="98.5" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="98.5" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED22" library="adafruit" package="CHIP-LED0805" value="" x="93.9" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="93.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="93.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$30" library="GW-devices" package="RF-C0805" value="" x="93.9" y="17.2"/>
+<element name="U$30" library="GW-devices" package="RF-C0805" value="" x="93.9" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="93.9" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="93.9" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED23" library="adafruit" package="CHIP-LED0805" value="" x="89.3" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="89.3" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="89.3" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$31" library="GW-devices" package="RF-C0805" value="" x="89.3" y="17.2"/>
+<element name="U$31" library="GW-devices" package="RF-C0805" value="" x="89.3" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="89.3" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="89.3" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED24" library="adafruit" package="CHIP-LED0805" value="" x="84.7" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="84.7" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="84.7" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$32" library="GW-devices" package="RF-C0805" value="" x="84.7" y="17.2"/>
+<element name="U$32" library="GW-devices" package="RF-C0805" value="" x="84.7" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="84.7" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="84.7" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="JP2" library="pinhead" package="1X12" value="" x="73.6" y="70.8" rot="R180"/>
 <element name="LED10" library="adafruit" package="CHIP-LED0805" value="" x="108" y="78.5">
 <attribute name="MFGN" value="Kingbright" x="108" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="108" y="78.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$16" library="GW-devices" package="RF-C0805" value="" x="108" y="74.4" rot="R270"/>
+<element name="U$16" library="GW-devices" package="RF-C0805" value="" x="108" y="74.4" rot="R270">
+<attribute name="MFGN" value="Panasonic" x="108" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="108" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="LED11" library="adafruit" package="CHIP-LED0805" value="" x="104" y="78.5">
 <attribute name="MFGN" value="Kingbright" x="104" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="104" y="78.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$17" library="GW-devices" package="RF-C0805" value="" x="104" y="74.4" rot="R270"/>
+<element name="U$17" library="GW-devices" package="RF-C0805" value="" x="104" y="74.4" rot="R270">
+<attribute name="MFGN" value="Panasonic" x="104" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="104" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="LED12" library="adafruit" package="CHIP-LED0805" value="" x="100" y="78.5">
 <attribute name="MFGN" value="Kingbright" x="100" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="100" y="78.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$18" library="GW-devices" package="RF-C0805" value="" x="100" y="74.4" rot="R270"/>
+<element name="U$18" library="GW-devices" package="RF-C0805" value="" x="100" y="74.4" rot="R270">
+<attribute name="MFGN" value="Panasonic" x="100" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="100" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="LED13" library="adafruit" package="CHIP-LED0805" value="" x="96" y="78.5">
 <attribute name="MFGN" value="Kingbright" x="96" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="96" y="78.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$20" library="GW-devices" package="RF-C0805" value="" x="96" y="74.4" rot="R270"/>
+<element name="U$20" library="GW-devices" package="RF-C0805" value="" x="96" y="74.4" rot="R270">
+<attribute name="MFGN" value="Panasonic" x="96" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="96" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="LED14" library="adafruit" package="CHIP-LED0805" value="" x="92" y="78.5">
 <attribute name="MFGN" value="Kingbright" x="92" y="78.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="92" y="78.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$21" library="GW-devices" package="RF-C0805" value="" x="92" y="74.4" rot="R270"/>
+<element name="U$21" library="GW-devices" package="RF-C0805" value="" x="92" y="74.4" rot="R270">
+<attribute name="MFGN" value="Panasonic" x="92" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="92" y="74.4" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="LED15" library="adafruit" package="CHIP-LED0805" value="" x="47.9" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="47.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="47.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$22" library="GW-devices" package="RF-C0805" value="" x="47.9" y="17.2"/>
+<element name="U$22" library="GW-devices" package="RF-C0805" value="" x="47.9" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="47.9" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="47.9" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED16" library="adafruit" package="CHIP-LED0805" value="" x="75.5" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="75.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="75.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$23" library="GW-devices" package="RF-C0805" value="" x="75.5" y="17.2"/>
+<element name="U$23" library="GW-devices" package="RF-C0805" value="" x="75.5" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="75.5" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="75.5" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED25" library="adafruit" package="CHIP-LED0805" value="" x="70.9" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="70.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="70.9" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$33" library="GW-devices" package="RF-C0805" value="" x="70.9" y="17.2"/>
+<element name="U$33" library="GW-devices" package="RF-C0805" value="" x="70.9" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="70.9" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="70.9" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED26" library="adafruit" package="CHIP-LED0805" value="" x="66.3" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="66.3" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="66.3" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$34" library="GW-devices" package="RF-C0805" value="" x="66.3" y="17.2"/>
+<element name="U$34" library="GW-devices" package="RF-C0805" value="" x="66.3" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="66.3" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="66.3" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED27" library="adafruit" package="CHIP-LED0805" value="" x="61.7" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="61.7" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="61.7" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$35" library="GW-devices" package="RF-C0805" value="" x="61.7" y="17.2"/>
+<element name="U$35" library="GW-devices" package="RF-C0805" value="" x="61.7" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="61.7" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="61.7" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED28" library="adafruit" package="CHIP-LED0805" value="" x="57.1" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="57.1" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="57.1" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$36" library="GW-devices" package="RF-C0805" value="" x="57.1" y="17.2"/>
+<element name="U$36" library="GW-devices" package="RF-C0805" value="" x="57.1" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="57.1" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="57.1" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED29" library="adafruit" package="CHIP-LED0805" value="" x="52.5" y="15.5" rot="R270">
 <attribute name="MFGN" value="Kingbright" x="52.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFGP" value="APT2012SECK" x="52.5" y="15.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$37" library="GW-devices" package="RF-C0805" value="" x="52.5" y="17.2"/>
-<element name="U$38" library="KW2" package="CJS" value="CJS" x="116.9" y="21.3" rot="R90"/>
-<element name="U$39" library="KW2" package="CJS" value="CJS" x="112.3" y="21.3" rot="R90"/>
-<element name="U$40" library="KW2" package="CJS" value="CJS" x="107.7" y="21.3" rot="R90"/>
-<element name="U$41" library="KW2" package="CJS" value="CJS" x="103.1" y="21.3" rot="R90"/>
-<element name="U$42" library="KW2" package="CJS" value="CJS" x="98.5" y="21.3" rot="R90"/>
-<element name="U$43" library="KW2" package="CJS" value="CJS" x="89.3" y="21.3" rot="R90"/>
-<element name="U$44" library="KW2" package="CJS" value="CJS" x="80.1" y="21.3" rot="R90"/>
-<element name="U$45" library="KW2" package="CJS" value="CJS" x="47.8" y="21.3" rot="R90"/>
-<element name="U$46" library="KW2" package="CJS" value="CJS" x="52.5" y="21.3" rot="R90"/>
-<element name="U$47" library="KW2" package="CJS" value="CJS" x="57.1" y="21.3" rot="R90"/>
-<element name="U$48" library="KW2" package="CJS" value="CJS" x="61.7" y="21.3" rot="R90"/>
-<element name="U$49" library="KW2" package="CJS" value="CJS" x="66.3" y="21.3" rot="R90"/>
-<element name="U$50" library="KW2" package="CJS" value="CJS" x="70.9" y="21.3" rot="R90"/>
-<element name="U$51" library="KW2" package="CJS" value="CJS" x="75.5" y="21.3" rot="R90"/>
-<element name="U$52" library="KW2" package="CJS" value="CJS" x="84.7" y="21.3" rot="R90"/>
-<element name="U$53" library="KW2" package="CJS" value="CJS" x="93.9" y="21.3" rot="R90"/>
-<element name="U$54" library="KW2" package="CJS" value="CJS" x="109.85" y="69.8" rot="R90"/>
-<element name="U$55" library="KW2" package="CJS" value="CJS" x="105.3" y="69.8" rot="R90"/>
-<element name="U$56" library="KW2" package="CJS" value="CJS" x="100.75" y="69.8" rot="R90"/>
-<element name="U$57" library="KW2" package="CJS" value="CJS" x="96.2" y="69.8" rot="R90"/>
-<element name="U$58" library="KW2" package="CJS" value="CJS" x="91.65" y="69.8" rot="R90"/>
-<element name="U$59" library="KW2" package="CJS" value="CJS" x="48.4" y="77.35" rot="R180"/>
-<element name="U$60" library="KW2" package="CJS" value="CJS" x="48.4" y="73.55" rot="R180"/>
-<element name="U$61" library="KW2" package="CJS" value="CJS" x="48.4" y="69.75" rot="R180"/>
-<element name="U$62" library="KW2" package="CJS" value="CJS" x="48.4" y="65.95" rot="R180"/>
-<element name="U$63" library="KW2" package="CJS" value="CJS" x="48.4" y="62.15" rot="R180"/>
-<element name="U$64" library="KW2" package="CJS" value="CJS" x="48.4" y="58.35" rot="R180"/>
-<element name="U$65" library="KW2" package="CJS" value="CJS" x="48.4" y="54.5" rot="R180"/>
+<element name="U$37" library="GW-devices" package="RF-C0805" value="" x="52.5" y="17.2">
+<attribute name="MFGN" value="Panasonic" x="52.5" y="17.2" size="1.778" layer="27" display="off"/>
+<attribute name="MFGP" value="ERJ-6ENF2001V" x="52.5" y="17.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$38" library="KW2" package="CJS" value="CJS" x="116.9" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="116.9" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="116.9" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$39" library="KW2" package="CJS" value="CJS" x="112.3" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="112.3" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="112.3" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$40" library="KW2" package="CJS" value="CJS" x="107.7" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="107.7" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="107.7" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$41" library="KW2" package="CJS" value="CJS" x="103.1" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="103.1" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="103.1" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$42" library="KW2" package="CJS" value="CJS" x="98.5" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="98.5" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="98.5" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$43" library="KW2" package="CJS" value="CJS" x="89.3" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="89.3" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="89.3" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$44" library="KW2" package="CJS" value="CJS" x="80.1" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="80.1" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="80.1" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$45" library="KW2" package="CJS" value="CJS" x="47.8" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="47.8" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="47.8" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$46" library="KW2" package="CJS" value="CJS" x="52.5" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="52.5" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="52.5" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$47" library="KW2" package="CJS" value="CJS" x="57.1" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="57.1" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="57.1" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$48" library="KW2" package="CJS" value="CJS" x="61.7" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="61.7" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="61.7" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$49" library="KW2" package="CJS" value="CJS" x="66.3" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="66.3" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="66.3" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$50" library="KW2" package="CJS" value="CJS" x="70.9" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="70.9" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="70.9" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$51" library="KW2" package="CJS" value="CJS" x="75.5" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="75.5" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="75.5" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$52" library="KW2" package="CJS" value="CJS" x="84.7" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="84.7" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="84.7" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$53" library="KW2" package="CJS" value="CJS" x="93.9" y="21.3" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="93.9" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="93.9" y="21.3" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$54" library="KW2" package="CJS" value="CJS" x="109.85" y="69.8" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="109.85" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="109.85" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$55" library="KW2" package="CJS" value="CJS" x="105.3" y="69.8" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="105.3" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="105.3" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$56" library="KW2" package="CJS" value="CJS" x="100.75" y="69.8" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="100.75" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="100.75" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$57" library="KW2" package="CJS" value="CJS" x="96.2" y="69.8" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="96.2" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="96.2" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$58" library="KW2" package="CJS" value="CJS" x="91.65" y="69.8" rot="R90">
+<attribute name="MFGP" value="CJS-1200TA" x="91.65" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="91.65" y="69.8" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$59" library="KW2" package="CJS" value="CJS" x="48.4" y="77.35" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="77.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="77.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$60" library="KW2" package="CJS" value="CJS" x="48.4" y="73.55" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="73.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="73.55" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$61" library="KW2" package="CJS" value="CJS" x="48.4" y="69.75" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="69.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="69.75" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$62" library="KW2" package="CJS" value="CJS" x="48.4" y="65.95" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="65.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="65.95" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$63" library="KW2" package="CJS" value="CJS" x="48.4" y="62.15" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="62.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="62.15" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$64" library="KW2" package="CJS" value="CJS" x="48.4" y="58.35" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="58.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="58.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="U$65" library="KW2" package="CJS" value="CJS" x="48.4" y="54.5" rot="R180">
+<attribute name="MFGP" value="CJS-1200TA" x="48.4" y="54.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFGN" value="Copal Electronics Inc" x="48.4" y="54.5" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
