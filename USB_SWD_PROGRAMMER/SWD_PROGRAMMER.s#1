@@ -1287,7 +1287,7 @@ P40- VIN</text>
 <connect gate="G$1" pin="VDDA" pad="7"/>
 <connect gate="G$1" pin="VOUT33" pad="5"/>
 <connect gate="G$1" pin="VREGIN" pad="6"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
+<connect gate="G$1" pin="VSS" pad="2 EP"/>
 <connect gate="G$1" pin="VSSA" pad="8"/>
 <connect gate="G$1" pin="XTAL32" pad="9"/>
 </connects>
