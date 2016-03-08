@@ -1,0 +1,25 @@
+[Eagle]
+Version="07 05 00"
+Platform="Mac OS X"
+Serial="6C0180584A-LSR-WLM-3CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Users/jeffw/Documents/Codeshelf/Engineering/CAD/EagleLibraries/SparkFun-PowerIC.lbr"
+UsedLibrary="/Users/jeffw/Documents/Codeshelf/Engineering/CAD/EagleLibraries/adafruit.lbr"
+UsedLibrary="/Users/jeffw/Documents/Codeshelf/Engineering/CAD/EagleLibraries/GW-devices.lbr"
+UsedLibrary="/Users/jeffw/Documents/Codeshelf/Engineering/CAD/EagleLibraries/SparkFun.lbr"
+UsedLibrary="/Users/jeffw/Documents/Codeshelf/Engineering/CAD/EagleLibraries/KW2.lbr"
+UsedLibrary="/Users/jeffw/Documents/Codeshelf/Engineering/CAD/EagleLibraries/Freedom.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 23 1439 874"
+State=1
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"
